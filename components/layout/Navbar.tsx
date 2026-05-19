@@ -8,7 +8,7 @@ export default function Navbar() {
       className="
         sticky top-0 z-50
         border-b border-zinc-800
-        bg-black/70 backdrop-blur-xl
+        bg-black/85 backdrop-blur-xl
       "
     >
       <nav
@@ -25,7 +25,12 @@ export default function Navbar() {
             tracking-tight
           "
         >
-          AshwanthCreationz
+          <>
+  Ashwanth
+  <span className="text-cyan-400">
+    Creationz
+  </span>
+</>
         </Link>
 
         <div className="flex items-center gap-6">
@@ -39,6 +44,7 @@ export default function Navbar() {
             <Link href="/articles">Articles</Link>
             <Link href="/projects">Projects</Link>
             <Link href="/about">About</Link>
+            <Link href="/contact">Contact</Link>
           </div>
 
           <ThemeToggle />
